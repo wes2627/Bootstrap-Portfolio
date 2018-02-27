@@ -10,12 +10,25 @@
 <body>
         <header id="masterhead"> 
         <div class="Container">
-            <a href="index.html" id="logo">Whitney Shirk</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" "width: 100%">
+                <a class="navbar-brand" href="indext.html">Whitney Shirk</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
         </div>
         </header>
         <div id="main-container" class="container">
@@ -61,18 +74,21 @@
     
             <section class="sidebar">
                 <div id="connect">
-                    <h2>Connect with Me</h2>
-                    <img src="https://octicons.github.com/img/og/mark-github.png" class="social" alt="GitHub">
-                    <img src="https://netsil.com/wp-content/uploads/2017/10/LinkedIn_UI-03-512.png?x15453" class="social" alt="LinkedIn">
-                    <img src="https://www.hrexaminer.com/wp-content/uploads/2016/10/2016-10-11-hrexaminer-stackoverflow-6-xxl-sq-250px.png" class="social" alt="Stack Overflow">
-                </div>
-            </section>
+                        <div class="card" style="width: 18rem;" style="float: right">
+                                <div class="card-body">
+                                  <h5 class="card-title">Connect With Me</h5>
+                                  <img src="https://octicons.github.com/img/og/mark-github.png" class="social" alt="GitHub" style="width: 12rem">
+                                  <img src="https://netsil.com/wp-content/uploads/2017/10/LinkedIn_UI-03-512.png?x15453" class="social" alt="LinkedIn" style="width: 4rem">
+                                  <img src="https://www.hrexaminer.com/wp-content/uploads/2016/10/2016-10-11-hrexaminer-stackoverflow-6-xxl-sq-250px.png" class="social" alt="Stack Overflow" style:"width: 1rem">
+                                </div>
+                              </div>
     
         </div>
         <footer>
-            <div class"container">
-                &copy; Copyright Whitney Shirk 2018
-            </div>
+            <div class="card border-success mb-3" style="width: 100%" style="color:grey">
+    
+                <div class="card-footer bg-transparent border-success"> &copy; Whitney Shirk 2018</div>
+              </div>
     
         </footer>
     </body>
